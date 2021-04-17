@@ -1,0 +1,1 @@
+I've made the About us page responsive only.

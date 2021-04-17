@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> <title>Wish List</title>
+		<link rel="stylesheet" type="text/css" href="wishlist.css" media="screen"/>
+		<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+		<meta name="viewport" content="width=device-width">
+		<script src="Storage.js"></script> 
+    </head>
+    <body>
+		<div id="header" class="section"> 
+			<img alt="" class="img-circle" src="dreampetsdogs.png" height="110px" align="left" >
+            <img alt="" class="img-circle" src="dreampetsdogs.png" height="110px" align="right" >         
+        </div>
+		
+	<!-- company -->
+	<h1 align="center" class="companyname"><big>DreamPets</big></h1>
+        
+	<!-- navigation tab -->
+	<div class="navtabsTop" id="navTabs" align="center">
+		<nav align="center">			
+				<a href="home.html">Home</a>
+				<a href="products.html">Products</a>
+				<a href="funfacts.html">Fun Facts</a> 
+				<a href="aboutus.html">About Us</a> 
+				<a href="contact.html">Contact</a>	
+		</nav>
+	</div>
+		 <h2 align="center">Wishlist</h2>
+
+
+	<form name="WishList">
+		<fieldset id="field" align="center">
+			<legend></legend>
+			<label>Product: <input type="text" name="name" placeholder="Add Item to wishlist..."></label>
+			<label>Quantity: <input type="text" name="data" placeholder="Specify Quantity..."></label>
+
+			<input type="button" value="Save"   onclick="SaveItem()">
+			<input type="button" value="Display" onclick="ModifyItem()">
+			<input type="button" value="Delete Item" onclick="RemoveItem()">
+		</fieldset>
+		<div id="items_table" align="center">
+		 
+			<table id="list" style="width:100%"></table>
+			<label><input type="button" value="Clear Storage" onclick="ClearAll()">
+			</label>
+		</div>
+	</form>
+
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>	
+		<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="aboutus.css" media="screen" />
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> <title>About us</title>
+		<meta name="viewport" content="width=device-width">
+			<script>
+		// Get the modal
+		var modal = document.getElementById('myModal');
+
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		var img = document.getElementById('woman');
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() { 
+		  modal.style.display = "none";
+		}
+		</script>
+    </head>
+    <body>
+	
+	<div id="header" class="section"> 
+			<img alt="" class="dreampets" src="dreampetsdogs.png" align="left" >
+            <img alt="" class="dreampets" src="dreampetsdogs.png" align="right" >         
+        </div>
+		
+		<!-- companyname -->
+		<h1 align="center" class="companyname" style="font-size:2.8vw"><big>DreamPets</big></h1>
+        
+	<!-- navigation tab -->
+	<div class="navtabsTop" id="navTabs" align="center" >
+		<nav align="center">			
+				<a href="home.html" style="font-size:1.5vw">Home</a>
+				<a href="products.html" style="font-size:1.5vw">Products</a>
+				<a href="funfacts.html" style="font-size:1.5vw">Fun Facts</a>  
+				<a href="aboutus.html" style="font-size:1.5vw">About Us</a> 
+				<a href="contact.html" style="font-size:1.5vw">Contact</a>	
+		</nav>
+		</div>
+
+		
+	<div class="intro_column" id="overviewinfo"> 
+		<div>
+        <h2 align="center">Get to know us!!!<h2></div>
+		<p align="center">We are a one stop pet shop for all your pet's needs. 
+		</br>We stock only the best in pet nutrition, pet toys and pet accessories and have our own inhouse range aswell.
+		</br>Our products are all natural ensuring the best for your bed.
+		</br>DreamPets will give you the best shopping experience as well as the best and affordable price nationwide.
+		</br>We also give the best advice you need to keep you and your pets happy.
+		</br>We have proudly won awards over the years for our service and reputable stores and will continue in our stride to be best in our game.
+		</br>----------------
+		</br>DreamPets employs qualified veterinary surgeons, pharmacists and suitably qualified persons (SQP’s).
+		</br>Given our pedigree, we rarely ever get compains! 
+		</br>But if you feel like you need to complain about something we have done (or not done) then email <i>support@dreampets.com</i>.
+		</p>		
+	</div>
+	
+	<div class="current_column" id="overviewinfo">
+		<div>
+		<div>
+        <h2 align="center">Meet the founders<h2></div>
+		<p align="center"> <b>Mrs Doodleloop</b>
+		</br><img alt="Mrs Doodleloop" class="woman" src="woman.jpg" align="center" >
+		</p>
+		
+		<p align="center" style="font-size:1.2vw">
+		Mrs Doodleloop is a qualified vet. Her speciality is smally animalls.
+		</br>She started DreamPets together with her friend Dr Pugglewoop in their backyard.
+		</br> They slowly grew their business until it is as it is today.
+		</p></div>
+		<div>
+		<p align="center"> <b>Dr Pugglewoop</b>
+		</br><img alt="" class="woman" src="woman1.jpg" align="center" >
+		</p>
+		
+		<p align="center" style="font-size:1.2vw">
+		Dr Pugglewoop is a qualified vet. Her speciality is horses.
+		</br>She started DreamPets together with her friend Dr Doodleloop in their backyard.
+		</br>They slowly grew their business until it is as it is today.
+		</p></div>
+	</div>
+	
+	<div id="myModal" class="modal">
+	  <span class="close"></span>
+	  <img class="modal-content" id="img01">
+	  <div id="caption"></div>
+	</div>
+	
+	
+	
+	<div class="comingsoon_column" id="overviewinfo">
+		<div>
+        <h2 align="center">Gallery<h2></div>
+		<p align="center"> <b style="font-size:1.5vw">Meet our staff</b>
+		 </br><img alt="" class="staff" src="staff.jpg" align="center" >
+		</p>		
+		<p align="center"> From left to right</br>Mrs I, Mrs J, Mr D, Mrs R and Mrs K
+		</br>---------------</br><b style="font-size:1.5vw">Picture of the month</b> 
+		</br><img alt="" class="pug" src="cutepug.jpg" align="center" >
+		</br>Send us an email to see how you can participate.
+		</p>
+	</div>
+
+	
+	
+	<!-- footer -->
+
+		<div class="footer">
+		  <img alt="" class="showDogs" src="group-dog.png" style="max-width:100%;height:auto;" align = "center" >
+		</div>
+    </body>
+</html>
