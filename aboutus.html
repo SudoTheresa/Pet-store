@@ -6,28 +6,6 @@
 		
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> <title>About us</title>
 		<meta name="viewport" content="width=device-width">
-			<script>
-		// Get the modal
-		var modal = document.getElementById('myModal');
-
-		// Get the image and insert it inside the modal - use its "alt" text as a caption
-		var img = document.getElementById('woman');
-		var modalImg = document.getElementById("img01");
-		var captionText = document.getElementById("caption");
-		img.onclick = function(){
-		  modal.style.display = "block";
-		  modalImg.src = this.src;
-		  captionText.innerHTML = this.alt;
-		}
-
-		// Get the <span> element that closes the modal
-		var span = document.getElementsByClassName("close")[0];
-
-		// When the user clicks on <span> (x), close the modal
-		span.onclick = function() { 
-		  modal.style.display = "none";
-		}
-		</script>
     </head>
     <body>
 	
@@ -50,7 +28,7 @@
 		</nav>
 		</div>
 
-		
+	<!-- intro column -->
 	<div class="intro_column" id="overviewinfo"> 
 		<div>
         <h2 align="center">Get to know us!!!<h2></div>
@@ -67,6 +45,7 @@
 		</p>		
 	</div>
 	
+	<!-- current column -->
 	<div class="current_column" id="overviewinfo">
 		<div>
 		<div>
@@ -75,31 +54,25 @@
 		</br><img alt="Mrs Doodleloop" class="woman" src="woman.jpg" align="center" >
 		</p>
 		
-		<p align="center" style="font-size:1.2vw">
+		<p align="center" style="font-size:1.2vw" class="description">
 		Mrs Doodleloop is a qualified vet. Her speciality is smally animalls.
 		</br>She started DreamPets together with her friend Dr Pugglewoop in their backyard.
 		</br> They slowly grew their business until it is as it is today.
 		</p></div>
 		<div>
 		<p align="center"> <b>Dr Pugglewoop</b>
-		</br><img alt="" class="woman" src="woman1.jpg" align="center" >
+		</br><img alt="" class="woman" src="woman1.jpg" align="center">
 		</p>
 		
-		<p align="center" style="font-size:1.2vw">
+		<p align="center" style="font-size:1.2vw" class="description">
 		Dr Pugglewoop is a qualified vet. Her speciality is horses.
 		</br>She started DreamPets together with her friend Dr Doodleloop in their backyard.
 		</br>They slowly grew their business until it is as it is today.
 		</p></div>
 	</div>
 	
-	<div id="myModal" class="modal">
-	  <span class="close"></span>
-	  <img class="modal-content" id="img01">
-	  <div id="caption"></div>
-	</div>
 	
-	
-	
+	<!-- coming soon column -->
 	<div class="comingsoon_column" id="overviewinfo">
 		<div>
         <h2 align="center">Gallery<h2></div>
