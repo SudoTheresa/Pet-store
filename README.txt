@@ -1,1 +1,1 @@
-I've made the About us page responsive only.
+A simple static pet store website
